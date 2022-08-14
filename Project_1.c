@@ -7,7 +7,6 @@ int main()
     int number, guess, nguess = 1;
     srand(time(0));
     number = rand() % 100 + 1;
-    printf("Guess the number between 1 and 100: \n");
     // printf("The number is: %d\n", number);
     // Keep runnign the program till the number is guessed
     do
